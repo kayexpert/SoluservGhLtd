@@ -101,7 +101,7 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  background-image: url(/assets/img/shorebase.jpg);
+  background-image: url(../img/shorebase.jpg);
   padding: 140px 0 60px 0;
   min-height: 30vh;
   position: relative;
