@@ -971,11 +971,9 @@ section {
   bottom: 0;
 }
 
-.alt-services .icon-box {
-  margin-top: 50px;
-}
 
-.alt-services .icon-box i {
+
+.alt-services .icon-box i, .how-to-join .icon-box i {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -1002,14 +1000,6 @@ section {
   font-size: 18px;
 }
 
-.alt-services .icon-box h4 a {
-  color: #000;
-  transition: 0.3s;
-}
-
-.alt-services .icon-box h4 a:hover {
-  color: var(--color-primary);
-}
 
 .alt-services .icon-box p {
   line-height: 24px;
@@ -1289,6 +1279,95 @@ section {
   object-fit: contain;
   mix-blend-mode: color-burn;
 
+}
+
+
+/*--------------------------------------------------------------
+  # Careers Page
+  --------------------------------------------------------------*/
+.why-join .img-bg, .how-to-join .img-bg {
+  min-height: 554px;
+  background-size: cover;
+  background-position: center;
+}
+@media (max-width: 768px) {
+  .img-bg{
+    min-height: 250px !important;
+  }
+  }
+
+.listings .wrapper{
+background:#feba0023;
+padding:40px 30px;
+border-radius: 8px;
+}
+.listings .wrapper h3,.listings .wrapper span, .listings .wrapper a{
+  font-weight: 800;
+  position: relative;
+}
+
+.listings .wrapper h3, .why-join ul li h5{
+  border-left: 3px solid #364d59;
+  padding-left:10px;
+
+}
+
+.listings .wrapper span{
+  font-size: 14px;
+}
+
+.listings .wrapper a{
+  color:#364d59 !important;
+  font-size: 14px;
+}
+.why-join ul li h5{
+  font-weight: 800;
+  /* margin-bottom: 18px; */
+}
+
+.why-join ul li {
+  padding-bottom: 20px;
+}
+
+/*--------------------------------------------------------------
+  # Careers details
+  --------------------------------------------------------------*/
+.career-details span{
+  font-weight: 800;
+  margin-right:20px;
+}
+.career-details input::placeholder, .career-details textarea::placeholder,.career-details .custom-file-label{
+font-size: 12px !important;
+color:#a7a7a7
+}
+
+.career-details label, .career-details .upload-lable {
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.career-details .upload-lable {
+  margin-bottom: 8px;
+}
+
+.career-details .custom-file-label{
+  font-weight: 400;
+}
+
+.career-details .form-check-label{
+  font-size: 11px;
+}
+
+
+.career-details .cus .form-control{
+  height: calc(2.5em + 0.75rem + 2px);
+}
+
+.career-details .submit-btn{
+  background: var(--color-primary);
+  padding: 6px 30px;
+  color:#fff;
+  font-weight: 700;
 }
 
 /*--------------------------------------------------------------
