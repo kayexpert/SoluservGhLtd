@@ -971,6 +971,10 @@ section {
   bottom: 0;
 }
 
+.alt-services .icon-box{
+  margin-bottom: 30px;
+}
+
 
 
 .alt-services .icon-box i, .how-to-join .icon-box i {
@@ -997,7 +1001,7 @@ section {
 .alt-services .icon-box h4 {
   font-weight: 700;
   margin-bottom: 10px;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 
